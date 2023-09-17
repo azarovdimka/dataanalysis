@@ -129,7 +129,7 @@
 [Ссылка на исследование](https://github.com/azarovdimka/dataanalysis/blob/main/Проект%20Должники.ipynb)
 
 
-## Проект 7: Определение перспективного тарифа в телеком-компаии в Python
+## [Проект 7: Определение перспективного тарифа в телеком-компаии в Python](https://github.com/azarovdimka/dataanalysis/blob/main/Абоненты%20сотовой%20связи.ipynb)
 
 #### Задача: 
 Определить перспективный тариф для оператора сотовой связи, какой тариф приносит больше прибыли?
@@ -172,5 +172,5 @@
 
 
 ### Контактная информация
-Email: dmi-azarov@ya.ru
-Telegram: https://t.me/analystazarov
+* Email: dmi-azarov@ya.ru
+* Telegram: https://t.me/analystazarov
