@@ -1,0 +1,29 @@
+select id_client, 
+        name_city,
+        case when gender = 'M' then 1 else 0 end as nflag_gender,
+        age,
+        first_time,
+        case when cellphone notnull then 1 else 0 end as nflag_cellphone,
+        is_active,
+        cl_segm,
+        amt_loan,
+        date_loan::date,
+        credit_type,
+        
+        sum(amt_loan) over (partition by name_city) as all_sum_by_city,
+        100.00 * amt_loan / sum(amt_loan) over (partition by name_city) as percent_credit_among_all_in_city,
+        
+        sum(amt_loan) over (partition by credit_type) as all_loan_sum_by_type,
+        100.00 * amt_loan / sum(amt_loan) over (partition by credit_type) as percent_credit_among_all_credit_type,
+        
+        sum(amt_loan) over (partition by credit_type, name_city) as all_loan_by_type_and_city,
+        100.00 * amt_loan / sum(amt_loan) over (partition by credit_type, name_city) as percent_loan_by_type_and_city,
+        
+        count(amt_loan) over (partition by name_city) as cnt_loan_in_city,
+        count(amt_loan) over (partition by credit_type) as cnt_loan_by_credit_type,
+        count(amt_loan) over (partition by credit_type, name_city) as cnt_loan_by_credit_type_and_city
+        
+from skybank.late_collection_clients as c
+left 
+join skybank.region_dict as r 
+  on c.id_city = r.id_city
