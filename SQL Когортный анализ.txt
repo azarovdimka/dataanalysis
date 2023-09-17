@@ -1,0 +1,10 @@
+select name_partner, is_trial, count(*)
+from 
+    (select row_number() over (partition by user_id order by date_purchase), *
+    from skycinema.client_sign_up as c
+    join skycinema.partner_dict as p 
+    on c.partner = p.id_partner) as t
+    
+where row_number = 1
+
+group by name_partner, is_trial
