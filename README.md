@@ -14,7 +14,7 @@
 
 # Боевые pet-проекты
 ## [Проект 1: Социологическое исследование условий труда (Python, SQL)](https://drive.google.com/drive/folders/1EvkoBguP5YL7BRKlerruqf4Y1ccipLw6?usp=sharing "Ссылка на отчеты и выводы исследования")
-Исследование проводилось среди сотрудников одного департамента в 1200 человек.
+Исследование проводилось среди сотрудников одного департамента в 1200 человек на предмет удовлетворенности труда по различным подшкалам, с целью выявить точки роста.
 
 * [Файл с кодом](https://github.com/azarovdimka/python/blob/master/Аналитика%20данных/teleopros/opros_bot.py)
 * [Отчеты и выводы исследования](https://drive.google.com/drive/folders/1EvkoBguP5YL7BRKlerruqf4Y1ccipLw6?usp=sharing)
