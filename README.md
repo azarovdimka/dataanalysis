@@ -16,17 +16,17 @@
 ## Проект 1: Социологическое исследование условий труда (Python, SQL)
 Исследование проводилось среди сотрудников одного департамента в 1200 человек.
 
-[Файл с кодом](https://github.com/azarovdimka/python/blob/master/Аналитика%20данных/teleopros/opros_bot.py)
-[Отчеты и выводы исследования](https://drive.google.com/drive/folders/1EvkoBguP5YL7BRKlerruqf4Y1ccipLw6?usp=sharing)
+* [Файл с кодом](https://github.com/azarovdimka/python/blob/master/Аналитика%20данных/teleopros/opros_bot.py)
+* [Отчеты и выводы исследования](https://drive.google.com/drive/folders/1EvkoBguP5YL7BRKlerruqf4Y1ccipLw6?usp=sharing)
 
 
 
 ## Проект 2: Информационно-справочный Telegram-бот (Python, SQL, REST API)
 Бот был разработан для бортпроводников Авиакомпании "Россия", присылал уведомления, содержал десятки функций, команд, меню, парсил удаленный корпоративный сайт, содержал ответы более чем на 1000 вопросов. Имел многоступенчатую систему обработки запроса и поиска информации. 
 
-[Основной исполняемый скрипт с кодом](https://github.com/azarovdimka/python/blob/master/telebot/flight_bot.py)
-[Репозиторий со всеми файлами](https://github.com/azarovdimka/python/tree/master/telebot)
-[Презентация бота](https://docs.google.com/presentation/d/1qUIiPn30K5sND8BxLDoCqi-ieNaTlZHk/edit?usp=sharing&ouid=109121693020713627795&rtpof=true&sd=true)
+* [Основной исполняемый скрипт с кодом](https://github.com/azarovdimka/python/blob/master/telebot/flight_bot.py)
+* [Репозиторий со всеми файлами](https://github.com/azarovdimka/python/tree/master/telebot)
+* [Презентация бота](https://docs.google.com/presentation/d/1qUIiPn30K5sND8BxLDoCqi-ieNaTlZHk/edit?usp=sharing&ouid=109121693020713627795&rtpof=true&sd=true)
 
 
 # Учебные проекты 
@@ -126,8 +126,7 @@
 * Поиск взаимосвязей и ответов на поставленные вопросы (перегруппировка данных, сводные таблицы по условию);
 * Написание промежуточных и общих выводов по ходу исследования.
 
-[Ссылка на исследование]
-(https://github.com/azarovdimka/dataanalysis/blob/main/Проект%20Должники.ipynb)
+[Ссылка на исследование](https://github.com/azarovdimka/dataanalysis/blob/main/Проект%20Должники.ipynb)
 
 
 ## Проект 7: Определение перспективного тарифа в телеком-компаии в Python
